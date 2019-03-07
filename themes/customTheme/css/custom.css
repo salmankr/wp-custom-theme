@@ -1,0 +1,59 @@
+/*
+custom css goes here
+*/
+
+@media screen and (min-width: 1366px){
+	body {
+		width: 1300px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+}
+
+
+/* main nav dropdown on hover */
+.navbar .navbar-collapse .menu-item:hover .dropdown-menu{
+	display: block !important;
+}
+
+/* logo-width control */
+.my-custom-theme-logo .custom-logo-link img{
+	height: auto;
+	width: 300px;
+}
+
+/* page title in center */
+.custom-standard-page .custom-page-title, .custom-blogPage-title .custom-page-title{
+	text-align: center;
+	color: #007bff;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+
+/* padding for post content */
+.custom-blogPage-content{
+	padding: 80px 20px 0px 20px;
+}
+.header-container{
+	background: #fff;
+}
+.footer-container{
+	background: #707070;
+	color: #fff;
+}
+.footer-container .widget-title{
+	color: #fff;
+}
+.footer-container ul{
+	list-style-type: none;
+}
+.footer-container ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+}
+.footer-container ul li a:hover{
+	color: #bcbcbc;
+	transition: 0.3s;
+}
