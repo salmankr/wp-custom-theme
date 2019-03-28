@@ -23,7 +23,7 @@ custom css goes here
 }
 
 /* page title in center */
-.custom-standard-page .custom-page-title, .custom-blogPage-title .custom-page-title{
+.custom-page-title{
 	text-align: center;
 	color: #007bff;
 	margin-bottom: 40px;
@@ -56,4 +56,12 @@ custom css goes here
 .footer-container ul li a:hover{
 	color: #bcbcbc;
 	transition: 0.3s;
+}
+
+.homepage-product-container .after-price{
+	padding-left: 10px;
+}
+.featured-image .col-lg-12{
+    height: 600px;
+    background-size: cover;
 }

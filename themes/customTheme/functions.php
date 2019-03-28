@@ -38,6 +38,9 @@ function my_custom_theme_setup(){
 	// register menu location
 	register_nav_menu( 'primary', 'Header Menu' );
     add_theme_support( 'post-thumbnails', array( 'page' ) );
+
+    // activate html5 for search form
+    // add_theme_support( 'html5', array('search-form') );
 }
 add_action( 'after_setup_theme', 'my_custom_theme_setup' );
 
